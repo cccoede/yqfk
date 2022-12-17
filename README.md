@@ -2,10 +2,11 @@
 前后端分离的。项目下载后进行部署。
 在后端项目中，要修改application.yml文件，修改数据库的连接配置，还有一个就是文件的存放路径，这个目录
 是和src同级的，要修改为项目在电脑中的存放路径。比如我的是D:\\javaproject\\yqfk\\uploads\\
-D:\\javaproject\\yqfk，如果存放的是C:\\javaproject\\yqfk，那文件路径就要改为
-D:\\javaproject\\yqfk\\uploads\\，里面存放了头像等文件。启动是在
+项目存放路径为D:\\javaproject\\yqfk，如果存放的是C:\\javaproject\\yqfk，那文件路径就要改为
+C:\\javaproject\\yqfk\\uploads\\，里面存放了头像等文件。启动是在
 java目录下的YqfkApplication类中启动。
-      在前端项目中，在node.js环境下直接用npm run serve命令启动就行。
+在前端项目中，在node.js环境下直接用npm run serve命令启动就行。
+
 
 
 # yqfk_
